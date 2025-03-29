@@ -1,10 +1,10 @@
 pipeline {
     agent any
     tools {
-        maven 'maven'
+        nodejs 'nodejs'
     }
     tools {
-        nodejs 'nodejs'
+        maven 'maven'
     }
     stages {
         stage('Build') {
