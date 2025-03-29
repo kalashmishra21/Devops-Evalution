@@ -3,9 +3,9 @@ pipeline {
     tools {
         maven 'maven'
     }
-    tools {
-        nodejs 'nodejs'
-    }
+    // tools {
+    //     nodejs 'nodejs'
+    // }
     stages {
         stage('Build') {
             steps {
