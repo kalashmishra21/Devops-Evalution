@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Deliver'){
             steps{
-               echo 'Delivered'
+               echo './scripts/deliver.sh'
             }
         }
     }
